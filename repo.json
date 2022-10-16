@@ -1,0 +1,21 @@
+[
+    {
+        "Author": "Chalkos",
+        "Name": "Marketbuddy",
+        "Punchline": "Less clicks, more gil!",
+        "Description": "Helper for your day-to-day market operations.",
+        "InternalName": "Marketbuddy",
+        "AssemblyVersion": "0.2.2.13",
+        "RepoUrl": "https://github.com/Madshot789/11",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 7,
+        "DownloadLinkInstall": "https://github.com/Madshot789/11/archive/refs/heads/master.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "hhttps://github.com/Madshot789/11/archive/refs/heads/master.zip",
+        "DownloadLinkUpdate": "https://github.com/Madshot789/11/archive/refs/heads/master.zip",
+        "DownloadCount": 0,
+        "LastUpdated": "1632419669",
+        "Changelog": "patch 6.2 fix, dalamud api7 and .net6"
+    }
+]
