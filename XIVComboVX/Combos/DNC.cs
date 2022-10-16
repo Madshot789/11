@@ -149,8 +149,8 @@ internal class DancerFlourishFeature: CustomCombo {
 
 	protected override uint Invoke(uint actionID, uint lastComboMove, float comboTime, byte level) {
 
-		if (level >= DNC.Levels.FanDance4 && SelfHasEffect(DNC.Buffs.FourfoldFanDance))
-			return DNC.FanDance4;
+		if (level >= DNC.Levels.FanDance3 && SelfHasEffect(DNC.Buffs.ThreefoldFanDance))
+			return DNC.FanDance3;
 
 		return actionID;
 	}
@@ -173,7 +173,7 @@ internal class DancerSingleTargetMultibutton: CustomCombo {
 				if (weaving) {
 					if (level >= DNC.Levels.FanDance3 && SelfHasEffect(DNC.Buffs.ThreefoldFanDance))
 						return DNC.FanDance3;
-					else if (GetJobGauge<DNCGauge>().Feathers > 0)
+					else if (GetJobGauge<DNCGauge>().Feathers > 0 && SelfHasEffect(DNC.Buffs.Devilment))
 						return DNC.FanDance1;
 				}
 			}
